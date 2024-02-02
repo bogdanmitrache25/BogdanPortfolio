@@ -1,3 +1,6 @@
 [build]
-command = "next build && next export"
-publish = "out"
+  # Comando de construcción para compilar el proyecto Next.js
+  command = "next build && next output: export"
+
+  # Directorio donde Next.js generará los archivos para la implementación
+  publish = "out"
