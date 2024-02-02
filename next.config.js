@@ -1,6 +1,9 @@
-// next.config.js
-
 module.exports = {
-  reactStrictMode: true,
-  distDir: "dist",
+  // Otras configuraciones...
+  // ...
+  // Agrega esta configuración para exportar estáticamente
+  output: {
+    // Configura la exportación estática
+    export: true,
+  },
 };
