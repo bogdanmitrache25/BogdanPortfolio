@@ -1,9 +1,8 @@
-module.exports = {
-  // Otras configuraciones...
-  // ...
-  // Agrega esta configuración para exportar estáticamente
-  output: {
-    // Configura la exportación estática
-    export: true,
-  },
+// @ts-check
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  /* config options here */
 };
+
+module.exports = nextConfig;
