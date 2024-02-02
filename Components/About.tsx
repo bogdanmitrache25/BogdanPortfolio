@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { ArrowDownTrayIcon } from "@heroicons/react/16/solid";
 
