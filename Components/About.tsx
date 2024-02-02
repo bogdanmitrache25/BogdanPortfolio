@@ -17,7 +17,7 @@ const About = () => {
             <p className="text-[19px] text-slate-300 w-[80%]">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque
               voluptatum tempora excepturi repellendus neque? Amet officiis
-              pariatur est asperiores nesciunt obcaecati quod?
+              pariatur est asperiores nesciunt obcaecati quod??
             </p>
           </div>
           <button className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2">
