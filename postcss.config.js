@@ -1,3 +1,3 @@
-leamodule.exports = {
+module.exports = {
   plugins: ["tailwindcss", "autoprefixer"],
 };
