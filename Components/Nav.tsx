@@ -15,7 +15,7 @@ const Nav = ({ openNav }: Props) => {
           <span className="text-yellow-300">DEV</span>
         </h1>
         <a href="#home" className="nav-link">
-          Home
+          HOME
         </a>
         <a href="#services" className="nav-link">
           SERVICES
