@@ -14,12 +14,24 @@ const Nav = ({ openNav }: Props) => {
           PORTFOLIO
           <span className="text-yellow-300">DEV</span>
         </h1>
-        <div className="nav-link">Home</div>
-        <div className="nav-link">SERVICES</div>
-        <div className="nav-link">ABOUT</div>
-        <div className="nav-link">PROJECTS</div>
-        <div className="nav-link">BLOG</div>
-        <div className="nav-link">CONTACT</div>
+        <a href="#home" className="nav-link">
+          Home
+        </a>
+        <a href="#services" className="nav-link">
+          SERVICES
+        </a>
+        <a href="#about" className="nav-link">
+          ABOUT
+        </a>
+        <a href="#projects" className="nav-link">
+          PROJECTS
+        </a>
+        <a href="#blog" className="nav-link">
+          BLOG
+        </a>
+        <a href="#contact" className="nav-link">
+          CONTACT
+        </a>
         <div onClick={openNav}>
           <Bars3Icon className="w-[2rem] md:hidden h-[2rem] cursor-pointer text-yellow-300" />
         </div>
