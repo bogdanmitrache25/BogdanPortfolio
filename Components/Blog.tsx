@@ -17,7 +17,7 @@ const Blog = () => {
         <div>
           <div className="w-[100%] relative h-[400px]">
             <Image
-              src="./public/images/blog2.jpg"
+              src="C:\Users\bogda\my-portfolio\public\images\blog1.jpg"
               alt="blog"
               layout="fill"
               className="object-cover"
@@ -45,7 +45,7 @@ const Blog = () => {
         <div>
           <div className="w-[100%] relative h-[400px]">
             <Image
-              src="/public/images/blog1.jpg"
+              src="C:\Users\bogda\my-portfolio\public\images\blog2.jpg"
               alt="blog"
               layout="fill"
               className="object-cover"
@@ -74,7 +74,7 @@ const Blog = () => {
         <div>
           <div className="w-[100%] relative h-[400px]">
             <Image
-              src="/public/images/blog3.jpg"
+              src="C:\Users\bogda\my-portfolio\public\images\blog3.jpg"
               alt="blog"
               layout="fill"
               className="object-cover"
