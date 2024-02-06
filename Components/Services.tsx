@@ -12,8 +12,8 @@ const Services = () => {
       className="bg-[#121212] pt-[4rem] md:pt-[8rem] pb-[5rem]"
     >
       <p className="heading">
-        My
-        <span className="text-yellow-400"> Services</span>
+        MIS
+        <span className="text-yellow-400"> SERVICIOS</span>
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-x-8 gap-y-6 mt-[4rem] text-white">
         <div data-aos="fade-right">
@@ -23,9 +23,9 @@ const Services = () => {
               Frontend
             </h1>
             <p className="text-[15px] text-[#d3d2d2] font-normal">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-              voluptas natus consequatur eaque perferendis officia magni ipsa
-              veniam vitae eveniet.
+              Experiencia y conocimiento práctico en tecnologías como HTML, CSS
+              y JavaScript. Habilidad con frameworks modernos como ReactJS, y
+              TypeScript.
             </p>
           </div>
         </div>
@@ -36,9 +36,9 @@ const Services = () => {
               Backend
             </h1>
             <p className="text-[15px] text-[#d3d2d2] font-normal">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-              voluptas natus consequatur eaque perferendis officia magni ipsa
-              veniam vitae eveniet.
+              Capacidad de desarrollo con tecnologías como SQL, PHP, Laravel y
+              Node.js para la creación de APIs y la gestión eficiente de bases
+              de datos.
             </p>
           </div>
         </div>
@@ -49,9 +49,9 @@ const Services = () => {
               Fullstack
             </h1>
             <p className="text-[15px] text-[#d3d2d2] font-normal">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-              voluptas natus consequatur eaque perferendis officia magni ipsa
-              veniam vitae eveniet.
+              Capacidad para diseñar y mantener aplicaciones web escalables y
+              robustas, combinando habilidades en frontend y backend para
+              ofrecer soluciones.
             </p>
           </div>
         </div>

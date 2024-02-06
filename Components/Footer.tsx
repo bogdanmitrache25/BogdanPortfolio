@@ -15,7 +15,7 @@ const Footer = () => {
           </div>
           <div>
             <h1 className="text-[25px] mb-[0.2rem] font-semibold text-white">
-              Address
+              Ubicación
             </h1>
             <p className="text-[17px] w-[90%] text-white opacity-60">
               Zaragoza
@@ -28,7 +28,7 @@ const Footer = () => {
           </div>
           <div>
             <h1 className="text-[25px] mb-[0.2rem] font-semibold text-white">
-              Phone & <br />
+              Móvil & <br />
               WhatsApp
             </h1>
             <p className="text-[17px] w-[90%] text-white opacity-60">
@@ -42,24 +42,27 @@ const Footer = () => {
           </div>
           <div>
             <h1 className="text-[25px] mb-[0.2rem] font-semibold text-white">
-              Send E-Mail
+              Envíame un correo
             </h1>
             <p className="text-[17px] w-[90%] text-white opacity-60">
-              bogdanfreshh@gmail.com
+              bogdancmitrache@gmail.com
             </p>
           </div>
         </div>
       </div>
       <div className="w-[80%] mt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-between">
-        <div className="text-[16px] mb-[2rem] md:mb-0 text-white opacity-20">
-          WebDev Bogdan Mitrache 2024 | All Rights Reserved
+        <div className="text-[16px] mb-[2rem] md:mb-0 text-white opacity-50">
+          WebDev Bogdan Mitrache 2024 | Creado con Next & Tailwind
         </div>
         <div className="flex items-center space-x-10">
-          <p className="text-[16px] text-white opacity-20">
-            Terms & Conditions
+          <p className="text-[16px] text-white opacity-50">
+            <a
+              href="https://es.linkedin.com/in/bogdan-mitrache-bb0781247"
+              target="_blank"
+            >
+              LinkedIn
+            </a>
           </p>
-          <p className="text-[16px] text-white opacity-20">Privacy Policy</p>
-          <p className="text-[16px] text-white opacity-20">Sitemap</p>
         </div>
       </div>
     </div>

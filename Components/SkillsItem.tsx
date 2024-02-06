@@ -15,9 +15,7 @@ const SkillsItem = ({ title, year }: Props) => {
         {title}
       </h1>
       <p className="text-[#aaaaaa] font-normal w-[80%] text-[17px] opacity-80">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, natus ad
-        ut eos modi aspernatur neque nisi ducimus, nam assumenda perferendis
-        aliquid pariatur maxime porro sed architecto illum aliquam voluptates!
+        Certificaciones de finalización de curso junto a proyecto final.
       </p>
     </div>
   );
