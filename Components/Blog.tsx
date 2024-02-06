@@ -45,7 +45,7 @@ const Blog = () => {
         <div>
           <div className="w-[100%] relative h-[400px]">
             <Image
-              src="/images/blog2.jpg" // Cambia la ruta de la segunda imagen si es diferente
+              src="/images/blog1.jpg"
               alt="blog"
               layout="fill"
               className="object-cover"
@@ -74,7 +74,7 @@ const Blog = () => {
         <div>
           <div className="w-[100%] relative h-[400px]">
             <Image
-              src="/images/blog3.jpg"
+              src="/images/blog1.jpg"
               alt="blog"
               layout="fill"
               className="object-cover"
