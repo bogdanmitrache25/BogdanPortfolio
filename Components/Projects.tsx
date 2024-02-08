@@ -1,7 +1,31 @@
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const Projects = () => {
+  const [showBackButton, setShowBackButton] = useState(false);
+
+  useEffect(() => {
+    const handleExternalLinkClick = () => {
+      setShowBackButton(true);
+    };
+
+    const backButtonHandler = () => {
+      setShowBackButton(false);
+    };
+
+    // Agregar event listener para detectar clics en enlaces externos
+    document.addEventListener("click", handleExternalLinkClick);
+
+    // Remover event listener al desmontar el componente
+    return () => {
+      document.removeEventListener("click", handleExternalLinkClick);
+    };
+  }, []);
+
+  const handleBackButtonClick = () => {
+    window.history.back();
+  };
+
   return (
     <div
       id="projects"
