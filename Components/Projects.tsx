@@ -12,66 +12,126 @@ const Projects = () => {
         <span> ( ⚒️En Construcción ⚒️)</span>
       </h1>
       <div className="w-[80%] pt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem]">
-        {/* Duplica este bloque 6 veces */}
         <div data-aos="fade-up">
-          <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[200px] md:h-[300px]">
-            <Image
-              src="/images/p1.jpg"
-              alt="portfolio"
-              layout="fill"
-              className="object-contain"
-            />
-          </div>
+          <a
+            href="https://football-quiz-bogdan.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-yellow-400"
+          >
+            <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[200px] md:h-[300px]">
+              <Image
+                src="/images/footballquiz1.jpg"
+                alt="portfolio"
+                layout="fill"
+                className="object-contain"
+              />
+              <div className="absolute inset-x-0 bottom-0 bg-black bg-opacity-70 text-white py-2 text-center">
+                ⚽ Test de Fútbol ⚽
+              </div>
+            </div>
+          </a>
         </div>
-        <div data-aos="fade-up" data-aos-delay="300">
-          <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[200px] md:h-[300px]">
-            <Image
-              src="/images/p2.jpg"
-              alt="portfolio"
-              layout="fill"
-              className="object-contain"
-            />
-          </div>
+
+        <div data-aos="fade-up">
+          <a
+            href="https://kanban-app-bogdan.netlify.app//"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-yellow-400"
+          >
+            <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[200px] md:h-[300px]">
+              <Image
+                src="/images/kanban1.jpg"
+                alt="portfolio"
+                layout="fill"
+                className="object-contain"
+              />
+              <div className="absolute inset-x-0 bottom-0 bg-black bg-opacity-70 text-white py-2 text-center">
+                📃 Metodología Kanban 📃
+              </div>
+            </div>
+          </a>
         </div>
-        <div data-aos="fade-up" data-aos-delay="400">
-          <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[200px] md:h-[300px]">
-            <Image
-              src="/images/p3.jpg"
-              alt="portfolio"
-              layout="fill"
-              className="object-contain"
-            />
-          </div>
+        <div data-aos="fade-up">
+          <a
+            href="https://movies-app-bogdan.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-yellow-400"
+          >
+            <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[200px] md:h-[300px]">
+              <Image
+                src="/images/film.jpg"
+                alt="portfolio"
+                layout="fill"
+                className="object-contain"
+              />
+              <div className="absolute inset-x-0 bottom-0 bg-black bg-opacity-70 text-white py-2 text-center">
+                🎬 Estrenos de Películas (API) 🎬
+              </div>
+            </div>
+          </a>
         </div>
-        <div data-aos="fade-up" data-aos-delay="500">
-          <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[200px] md:h-[300px]">
-            <Image
-              src="/images/p4.jpg"
-              alt="portfolio"
-              layout="fill"
-              className="object-contain"
-            />
-          </div>
+        <div data-aos="fade-up">
+          <a
+            href="https://vet-app-bogdan.netlify.app//"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-yellow-400"
+          >
+            <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[200px] md:h-[300px]">
+              <Image
+                src="/images/vet.jpg"
+                alt="portfolio"
+                layout="fill"
+                className="object-contain"
+              />
+              <div className="absolute inset-x-0 bottom-0 bg-black bg-opacity-70 text-white py-2 text-center">
+                🐾 Vet : Gestión Pacientes 🐾
+              </div>
+            </div>
+          </a>
         </div>
-        <div data-aos="fade-up" data-aos-delay="600">
-          <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[200px] md:h-[300px]">
-            <Image
-              src="/images/p5.jpg"
-              alt="portfolio"
-              layout="fill"
-              className="object-contain"
-            />
-          </div>
+        <div data-aos="fade-up">
+          <a
+            href="https://es.linkedin.com/in/bogdan-mitrache-bb0781247/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-yellow-400"
+          >
+            <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[200px] md:h-[300px]">
+              <Image
+                src="/images/construccion.jpg"
+                alt="portfolio"
+                layout="fill"
+                className="object-contain"
+              />
+              <div className="absolute inset-x-0 bottom-0 bg-black bg-opacity-70 text-white py-2 text-center">
+                ⌛ En construcción... ⌛
+              </div>
+            </div>
+          </a>
         </div>
-        <div data-aos="fade-up" data-aos-delay="700">
-          <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[200px] md:h-[300px]">
-            <Image
-              src="/images/p1.jpg"
-              alt="portfolio"
-              layout="fill"
-              className="object-contain"
-            />
-          </div>
+        <div data-aos="fade-up">
+          <a
+            href="https://es.linkedin.com/in/bogdan-mitrache-bb0781247/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-yellow-400"
+          >
+            <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[200px] md:h-[300px]">
+              <Image
+                src="/images/construccion1.jpg"
+                alt="portfolio"
+                layout="fill"
+                className="object-contain"
+              />
+              <div className="absolute inset-x-0 bottom-0 bg-black bg-opacity-70 text-white py-2 text-center">
+                ⌛ En construcción... ⌛
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>
