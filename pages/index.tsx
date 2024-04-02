@@ -1,4 +1,5 @@
 "use client";
+
 import MobileNav from "@/Components/MobileNav";
 import Nav from "@/Components/Nav";
 import React, { useEffect, useState } from "react";
@@ -10,7 +11,7 @@ import Projects from "@/Components/Projects";
 import Blog from "@/Components/Blog";
 import Footer from "@/Components/Footer";
 import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
+import "aos/dist/aos.css";
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);
